@@ -11,7 +11,7 @@
     'data': [
         'static/src/views/theme.xml',
     ],
-    'image':[
+    'images':[
             'images/main_screenshot.png',
     ],
     'application': True,
