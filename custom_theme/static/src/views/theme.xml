@@ -17,13 +17,30 @@
     <div class="oe_structure oe_empty" id="wrap" data-oe-id="318" data-oe-source-id="288" data-oe-xpath="/data/xpath/div[2]" data-oe-model="ir.ui.view" data-oe-field="arch">
       <section class="blog-wrapper">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 messagebox">
-              <h2>Lorem Ipsum is dummy <span class="rotate">awesome</span> stuff.</h2>
-              <p class="lead">Hey Everyone! We are Jollyany and we make really beautiful and amazing stuff. This can be used to describe what you do,<br/>
-how you do it, who you do it for. Don’t Miss the Awesome Theme</p>
+          <section class="mb16">
+        <div class="container">
+          <div class="row mt16 mb16">
+            <div class="col-md-4 text-center">
+              <span class="fa fa-suitcase fa-5x"></span>
+              <h3 class="mt8 mb0">First Feature</h3>
+              <div class="text-muted">Tell what's the value for the</div>
+              <div class="text-muted">customer for this feature.</div>
+            </div>
+            <div class="col-md-4 text-center">
+              <span class="fa fa-lock fa-5x"></span>
+              <h3 class="mt8 mb0">Second Feature</h3>
+              <div class="text-muted">Write what the customer would like to know,</div>
+              <div class="text-muted">not what you want to show.</div>
+            </div>
+            <div class="col-md-4 text-center">
+              <span class="fa fa-heart fa-5x"></span>
+              <h3 class="mt8 mb0">Third Feature</h3>
+              <div class="text-muted">A small explanation of this great</div>
+              <div class="text-muted">feature, in clear words.</div>
             </div>
           </div>
+        </div>
+      </section>
           <div class="row padding-top">
             <div class="col-sm-8">
               <div class="entry shop-banner">
@@ -50,7 +67,7 @@ YOUR BRANDS</h3>
             </div>
           </div>
           <div class="general-title padding-top">
-            <h2>Featured Products</h2>
+            <h2>Recent Products</h2>
             <hr class="no-padding"/>
           </div>
           <div class="shop_wrapper padding-top">
@@ -75,7 +92,7 @@ YOUR BRANDS</h3>
                     <span class="cats"><a href="#">Women</a>, <a href="#">Fashion</a></span>
                   </div>
                 </div>
-                <span class="price">£52.15</span>
+               
               </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -99,7 +116,7 @@ YOUR BRANDS</h3>
                     <span class="cats"><a href="#">Women</a>, <a href="#">Fashion</a></span>
                   </div>
                 </div>
-                <span class="price">£52.15</span>
+               
               </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -123,7 +140,7 @@ YOUR BRANDS</h3>
                     <span class="cats"><a href="#">Women</a>, <a href="#">Fashion</a></span>
                   </div>
                 </div>
-                <span class="price">£52.15</span>
+               
               </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 last">
@@ -147,89 +164,13 @@ YOUR BRANDS</h3>
                     <span class="cats"><a href="#">Women</a>, <a href="#">Fashion</a></span>
                   </div>
                 </div>
-                <span class="price">£52.15</span>
+               
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="parallax oe_img_bg" data-scroll-background-offset="-843.9" data-scroll-background-ratio="1" style="background-image: url(http://localhost:8061/website/image/ir.attachment/148_658504f/datas); background-attachment: fixed; background-position: 0px 0px;">
-        <div class="overlay">
-          <div class="container" style="display: block;">
-            <div class="general-title">
-              <h2>Our Working Process</h2>
-              <hr />
-              <p class="lead">These is the team behind Jollyany Agency</p>
-            </div>
-            <div class="custom-services">
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 first">
-                <div class="ch-item">
-                  <div class="ch-info-wrap">
-                    <div class="ch-info">
-                      <div class="ch-info-front">
-                        <i class="fa fa-bookmark fa-4x"></i>
-                        <h3>PROTECTED PACKAGE</h3>
-                      </div>
-                      <div class="ch-info-back">
-                        <h3>RESULTS</h3>
-                        <p>Lorem ipsum dolor sit ameconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="ch-item">
-                  <div class="ch-info-wrap">
-                    <div class="ch-info">
-                      <div class="ch-info-front">
-                        <i class="fa fa-truck fa-4x"></i>
-                        <h3>FAST DELIVERY</h3>
-                      </div>
-                      <div class="ch-info-back">
-                        <h3>RESULTS</h3>
-                        <p>Lorem ipsum dolor sit ameconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="ch-item">
-                  <div class="ch-info-wrap">
-                    <div class="ch-info">
-                      <div class="ch-info-front">
-                        <i class="fa fa-plane fa-4x"></i>
-                        <h3>SELECT SHIPPING TYPE</h3>
-                      </div>
-                      <div class="ch-info-back">
-                        <h3>RESULTS</h3>
-                        <p>Lorem ipsum dolor sit ameconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 last">
-                <div class="ch-item">
-                  <div class="ch-info-wrap">
-                    <div class="ch-info">
-                      <div class="ch-info-front">
-                        <i class="fa fa-sun-o fa-4x"></i>
-                        <h3>SUPPORT DESK</h3>
-                      </div>
-                      <div class="ch-info-back">
-                        <h3>RESULTS</h3>
-                        <p>Lorem ipsum dolor sit ameconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </div>
 	    </xpath>
 </template>
@@ -237,7 +178,7 @@ YOUR BRANDS</h3>
  <template id="layout_inherit" inherit_id="website.layout">
     <xpath expr="//html/head" position="inside">
 		<link rel="stylesheet" href="/custom_theme/static/src/css/bootstrap.css"/>
- 		<link rel="stylesheet" href="/custom_theme/static/src/css/style.css"/>   
+ 		<link rel="stylesheet" href="/custom_theme/static/src/css/custom.css"/>   
     </xpath> 
     <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
 		<attribute name="id">header-style-1</attribute>   
@@ -248,35 +189,9 @@ YOUR BRANDS</h3>
                 <div class="container">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="widget">
-                        <img class="img-rounded img-responsive" alt="" src="/custom_theme/static/src/img/ir_attachment_34.jpeg" />
-                            <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Invst igationes demonstraverunt lectores legemer lius quod ii legunt saepius. Claritas est etiam processus dynamicusm lectorum.</p>
-                            <div class="social-icons">
-                                <span>
-                                    <a data-placement="bottom" data-toggle="tooltip" href="#" title="Facebook">
-                                        <em class="fa fa-facebook"></em>
-                                    </a>
-                                </span>
-                                <span>
-                                    <a data-placement="bottom" data-toggle="tooltip" href="#" title="Google Plus">
-                                        <em class="fa fa-google-plus"></em>
-                                    </a>
-                                </span>
-                                <span>
-                                    <a data-placement="bottom" data-toggle="tooltip" href="#" title="Twitter">
-                                        <em class="fa fa-twitter"></em>
-                                    </a>
-                                </span>
-                                <span>
-                                    <a data-placement="bottom" data-toggle="tooltip" href="#" title="Youtube">
-                                        <em class="fa fa-youtube"></em>
-                                    </a>
-                                </span>
-                                <span class="last">
-                                    <a data-placement="bottom" data-toggle="tooltip" href="#" title="Linkedin">
-                                        <em class="fa fa-linkedin"></em>
-                                    </a>
-                                </span>
-                            </div>
+                            <br/>
+                            <p>Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. Invst igationes demonstraverunt lectores legemer lius quod ii legunt saepius. Claritas est etiam processus dynamicusm lectorum.</p>
+                           
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -287,24 +202,15 @@ YOUR BRANDS</h3>
                             <ul class="twitter_feed">
                                 <li>
                                     <span></span>
-                                    <p>We have launched Jollyany Multipurpose theme with the advanced featuresMegamenu, 
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
                                         
-                                        <a href="#">#OneStep</a>,#Ajax, attractive slideshow:
+                                        <a href="#">#Lorem Ipsum </a>
                                         
-                                        <a href="#" target="_blank">http://t.co/KRi7aG6BFo</a>
-                                        <a href="#">about 4 hours ago</a>
+                                        <a href="#" target="_blank">Lorem Ipsum </a>
+                                        <a href="#">Lorem Ipsum </a>
                                     </p>
                                 </li>
-                                <li>
-                                    <span></span>
-                                    <p>We have launched Jollyany -Multipurpose theme withadvanced features: Megamenu, 
-                                        
-                                        <a href="#">#OneStep</a>,#Ajax, attractive slideshow 
-                                        
-                                        <a href="http://t.co/KRi7aG6BFo" target="_blank">http://t.co/KRi7aG6BFo</a>
-                                        <a href="#">about 4 hours ago</a>
-                                    </p>
-                                </li>
+                           
                             </ul>
                         </div>
                     </div>
@@ -329,21 +235,7 @@ YOUR BRANDS</h3>
                                         <img src="/custom_theme/static/src/img/banner_shop_01.png" alt="" class="img-rounded img-responsive"/>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="/custom_theme/static/src/img/banner_shop_01.png" alt="" class="img-rounded img-responsive" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="/custom_theme/static/src/img/banner_shop_01.png" alt="" class="img-rounded img-responsive" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img src="/custom_theme/static/src/img/banner_shop_01.png" alt="" class="img-rounded img-responsive" />
-                                    </a>
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -368,9 +260,9 @@ YOUR BRANDS</h3>
             <div class="container">
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <div class="copyright-text">
-                        <p> 2014  - Powered by                       
-                            <a href="#">MageSolution</a> Designed by                            
-                            <a href="#">Jolly Themes</a>
+                        <p> 2014  - developed and                       
+                            <a href="#">Designed by</a>                             
+                            <a href="#">Biztech Themes</a>
                         </p>
                     </div>
                 </div>
@@ -384,19 +276,14 @@ YOUR BRANDS</h3>
                                 </a>
                             </li>
                             <li>
-                                <a title="Search Terms" href="#">
-                                    <i class="icon icon-angle-right"></i>Search Terms
+                                <a title="About Us" href="#">
+                                    <i class="icon icon-angle-right"></i>About Us
                                 
                                 </a>
                             </li>
+                           
                             <li>
-                                <a title="Advanced Search" href="#">
-                                    <i class="icon icon-angle-right"></i>Advanced Search
-                                
-                                </a>
-                            </li>
-                            <li>
-                                <a title="Orders and Returns" href="#">Orders and Returns</a>
+                                <a title="Career" href="#">Career</a>
                             </li>
                             <li class=" last">
                                 <a title="Contact Us" href="#">
@@ -414,11 +301,7 @@ YOUR BRANDS</h3>
 	 <div class="clearfix" id="topbar" data-oe-id="769" data-oe-model="ir.ui.view" data-oe-field="arch" data-oe-xpath="/t[1]/html[1]/body[1]/div[1]/div[1]">
 	 <div class="container">
 	 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-	 <div class="social-icons">
-	 <span>
-	 <a data-original-title="Facebook" data-placement="bottom" data-toggle="tooltip" href="#" style="display: none;" title="">
-	 <em class="fa fa-facebook"></em></a></span>
-	 <span><a data-original-title="Facebook" data-placement="bottom" data-toggle="tooltip" href="#" style="display: none;" title=""><em class="fa fa-facebook"></em></a></span><span><a data-original-title="Facebook" data-placement="bottom" data-toggle="tooltip" href="#" style="display: none;" title=""><em class="fa fa-facebook"></em></a></span><span><a data-original-title="Facebook" data-placement="bottom" data-toggle="tooltip" href="#" style="display: none;" title=""><em class="fa fa-facebook"></em></a></span></div></div><div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"><div class="topmenu"><span class="topbar-login"><i class="fa fa-user"></i><a href="#">Login / Register</a></span><span class="topbar-cart"><i class="fa fa-shopping-cart"></i><a href="#">0 item - <span class="price">£0.00</span> </a></span><span class="top-search" onclick="toggleSearch()"><i class="fa fa-search" style=""></i></span></div><div class="callus"><span class="topbar-phone">Default welcome msg!
+	 </div><div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"><div class="topmenu"><span class="topbar-login"><a href="#">Login / Register</a></span><span class="topbar-cart"><a href="#">0 item - <span class="price">£0.00</span> </a></span></div><div class="callus"><span class="topbar-phone"> welcome Guest!
 	 </span></div></div></div></div>
 	 </xpath>
 	 </template>
