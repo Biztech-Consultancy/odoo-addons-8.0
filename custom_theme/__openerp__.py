@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Custom Theme',
+    'name': 'Biztech Theme',
     'description': 'This module provides feature for changing layout of theme.',
     'summary': 'This module provides feature for changing layout of theme.',
     'category': 'Theme',
