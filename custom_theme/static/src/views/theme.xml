@@ -248,7 +248,7 @@ YOUR BRANDS</h3>
                 <div class="container">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="widget">
-                        <img class="img-rounded img-responsive" alt="" src="/logo.png" />
+                        <img class="img-rounded img-responsive" alt="" src="/custom_theme/static/src/img/ir_attachment_34.jpeg" />
                             <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Invst igationes demonstraverunt lectores legemer lius quod ii legunt saepius. Claritas est etiam processus dynamicusm lectorum.</p>
                             <div class="social-icons">
                                 <span>
@@ -422,5 +422,14 @@ YOUR BRANDS</h3>
 	 </span></div></div></div></div>
 	 </xpath>
 	 </template>
+<template id="website.layout_logo_show" inherit_id="website.layout" customize_show="True" name="Show Logo">
+    <xpath expr="//header//a[@class='navbar-brand']" position="replace">
+        <a href="/" class="navbar-brand logo">
+            <img src="/custom_theme/static/src/img/ir_attachment_34.jpeg"/>
+        </a>
+    </xpath>
+</template>
+
+
 </data>
 </openerp>
