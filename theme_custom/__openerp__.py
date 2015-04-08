@@ -3,12 +3,13 @@
     'name': 'Biztech Theme',
     'description': 'This module provides feature for changing layout of theme.',
     'summary': 'This module provides feature for changing layout of theme.',
-    'category': 'Education',
+    'category': 'Ecommerce',
     'version': '1.0',
     'website': 'http://www.biztechconsultancy.com',
     'author': 'Biztech Consultancy',
     'depends': ['website'],
     'data': [
+        'static/src/views/data.xml',
         'static/src/views/theme.xml',
     ],
     'images':[
