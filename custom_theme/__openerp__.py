@@ -12,7 +12,7 @@
         'static/src/views/theme.xml',
     ],
     'images':[
-            'description/icon.png',
+            'static/description/icon.png',
     ],
     'application': True,
 }
