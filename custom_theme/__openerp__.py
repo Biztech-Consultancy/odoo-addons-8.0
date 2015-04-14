@@ -12,7 +12,7 @@
         'static/src/views/theme.xml',
     ],
     'images':[
-            'static/description/icon.png',
+            'static/description/splash_screen.png',
     ],
     'application': True,
 }
