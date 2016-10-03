@@ -6,7 +6,7 @@
     'category': 'Theme',
     'version': '1.0',
     'website': 'http://www.biztechconsultancy.com',
-    'author': 'BiztechCS',
+    'author': 'Biztech Consultancy',
     'depends': ['website'],
     'data': [
         'static/src/views/theme.xml',
